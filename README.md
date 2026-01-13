@@ -1,2 +1,24 @@
-# library_system-CLI-Based-
-library_system is a console-based Python Library Management System that allows users to manage books, members, and loans using a clean service–repository architecture. It supports adding books, registering members, borrowing and returning books, and tracking active loans with in-memory and file-based storage.
+# Library System 📚
+
+A simple **console-based Library Management System** built with Python.  
+This project demonstrates clean architecture principles using **service layers**, **repositories**, and **custom error handling** to manage books, members, and borrowing operations.
+
+---
+
+## ✨ Features
+
+- ➕ Add new books
+- 👤 Register library members
+- 📋 View all books and their availability
+- 📋 View all registered members
+- 📖 Borrow books
+- 🔄 Return books
+- 🧾 Track active loans
+- ⚠️ Custom error handling with `LibraryError`
+
+---
+
+## 🏗️ Architecture Overview
+
+This project follows a **layered architecture**:
+
